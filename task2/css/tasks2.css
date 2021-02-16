@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+}
+
+.box {
+	width: 600px;
+    background:#2196f354;
+    margin-left: auto;
+    border: 8px solid black;
+    height: 300px;
+    margin-right: auto;
+}
+
+.round {
+		width: 30px;
+    height: 30px;
+    transition: left 1s;
+    background: black;
+    border-radius: 36%;
+    position: absolute;
+   
+}
+.straight{
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+}
+.data {
+	
+	height: 180px;
+	border: 10px solid yellow;
+	margin: auto;
+    width: 410px;
+	margin-bottom: 16px;
+	overflow-y: scroll;
+	background: #bda3c7;
+}
+.dash{
+		 position: relative;
+         top: 37px;
+         border: 2.1px solid #b436f4;
+   		 max-width: 83%;
+    	 margin: auto;
+	}
